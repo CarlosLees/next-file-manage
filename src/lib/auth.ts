@@ -19,7 +19,7 @@ const login = async (credentials: Record<string, unknown>) => {
             name: string;
         } = {
             name: credentials.username as string,
-            id: '',
+            id: 'credentialsId',
             email: '',
             password: '',
             img: '',
