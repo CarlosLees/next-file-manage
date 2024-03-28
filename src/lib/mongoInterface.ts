@@ -1,5 +1,15 @@
-import { ConnectionStates } from 'mongoose';
+import { ConnectionStates, Date } from 'mongoose';
 
 export interface MongoConnection {
     isConnection: ConnectionStates;
+}
+
+export interface MongoUser {
+    id: string;
+    username: string;
+    email: string;
+    password: string;
+    img: string;
+    isAdmin: boolean;
+    createdAt: Date;
 }
