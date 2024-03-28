@@ -33,7 +33,16 @@ export const authConfig = {
             return { ...session, id: token.id };
         },
         authorized({ auth, request }: { auth: Session | null; request: NextRequest }) {
-            console.log('auth:', auth);
+            const user = auth as ProjectSession;
+            const isOnLoginPage = request.nextUrl.pathname.startsWith('/login');
+            const isHomePage = request.nextUrl.pathname === '/';
+
+            if (isHomePage && !user) {
+                return false;
+            }
+            if (isOnLoginPage && user) {
+                return Response.redirect(new URL('/', request.nextUrl));
+            }
             return true;
         },
     },

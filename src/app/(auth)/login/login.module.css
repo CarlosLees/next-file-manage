@@ -1,3 +1,37 @@
 .container {
+    @apply flex items-center gap-[10px] pl-0 pr-0
+}
 
+.leftContainer {
+    @apply flex-2 relative h-[100vh]
+}
+
+.img {
+    @apply object-fill
+}
+
+.rightContainer {
+    @apply flex-1 justify-center flex flex-col gap-[20px] text-center
+}
+
+.title {
+    @apply text-center
+}
+
+.desc {
+    @apply text-blue-400
+}
+
+.form {
+    @apply flex flex-col gap-[20px] ml-2 mr-2
+}
+
+.form input{
+    @apply p-[20px] rounded-[5px] outline-none
+    bg-blend-soft-light text-black
+}
+
+.form button {
+    @apply p-[20px] bg-blue-600 rounded-[5px] border-none text-white
+    font-bold cursor-pointer
 }
