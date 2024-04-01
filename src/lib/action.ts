@@ -18,6 +18,6 @@ export const login = async (pre: any, form: FormData) => {
     }
 };
 
-export const logout = async (pre: any, form: FormData) => {
+export const logout = async () => {
     await signOut();
 };

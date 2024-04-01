@@ -1,0 +1,11 @@
+.container {
+    @apply w-2/5 h-[8%] relative
+}
+
+.image {
+    @apply object-contain
+}
+
+.active {
+    @apply bg-white text-black
+}

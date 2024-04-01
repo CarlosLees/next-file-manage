@@ -24,6 +24,7 @@ const config: Config = {
         extend: {
             flex: {
                 '2': '2 1 0%',
+                '5': '5 1 0%',
             },
         },
     },
