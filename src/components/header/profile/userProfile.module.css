@@ -1,0 +1,19 @@
+.container {
+    @apply flex items-center h-full gap-[20px] mr-2
+}
+
+.username {
+    @apply text-gray-400 text-[15px] font-[10px]
+}
+
+.dropdown {
+    @apply relative inline-block
+}
+
+.dropdownContent {
+    @apply hidden absolute z-10
+}
+
+.dropdown:hover .dropdownContent {
+    @apply block;
+}

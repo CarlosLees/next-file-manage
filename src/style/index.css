@@ -21,5 +21,9 @@ a {
 }
 
 .container {
-    @apply w-full m-auto min-h-[100vh] flex p-2
+    @apply w-full m-auto min-h-[100vh] flex
+}
+
+.contents {
+    @apply flex-col flex w-full
 }

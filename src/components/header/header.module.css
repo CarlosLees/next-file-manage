@@ -1,3 +1,23 @@
 .container {
+    @apply mr-2.5 relative flex mt-2 ml-2 w-[95vw] gap-[10px] h-[5%] p-1 bg-slate-100
+}
 
+.input {
+    @apply w-1/3 pl-[15px] border-none bg-blue-100 rounded-[8px] placeholder:italic placeholder:text-slate-400 outline-none
+}
+
+.content {
+    @apply flex justify-between w-2/3
+}
+
+.list {
+    @apply flex justify-between w-[45%] items-center
+}
+
+.headerLink {
+    @apply relative w-3/4 h-3/4
+}
+
+.headerLinkImage {
+    @apply object-contain
 }
