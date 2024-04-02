@@ -1,9 +1,9 @@
 .container {
-    @apply mr-2.5 relative flex mt-2 ml-2 w-[95vw] gap-[10px] h-[5vh] p-1 bg-slate-100
+    @apply relative flex mt-2 w-[95vw] gap-[10px] h-[5vh] p-1 bg-slate-200
 }
 
 .input {
-    @apply w-1/3 pl-[15px] border-none bg-blue-100 rounded-[8px] placeholder:italic placeholder:text-slate-400 outline-none
+    @apply w-1/3 pl-[15px] border-none bg-blue-200 rounded-[8px] placeholder:italic placeholder:text-slate-400 outline-none
 }
 
 .content {

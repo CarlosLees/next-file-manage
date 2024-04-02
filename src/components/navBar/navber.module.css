@@ -19,7 +19,7 @@
 }
 
 .exitButton {
-    @apply relative w-full h-[50%] border-none bg-slate-50
+    @apply relative w-full h-[50%] border-none bg-slate-200 cursor-pointer
 }
 
 .exitImage {
