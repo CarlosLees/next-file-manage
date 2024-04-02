@@ -25,5 +25,5 @@ a {
 }
 
 .contents {
-    @apply flex-col flex w-full
+    @apply flex-col flex w-full gap-2.5
 }

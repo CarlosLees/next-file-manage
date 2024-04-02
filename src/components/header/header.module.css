@@ -1,5 +1,5 @@
 .container {
-    @apply mr-2.5 relative flex mt-2 ml-2 w-[95vw] gap-[10px] h-[5%] p-1 bg-slate-100
+    @apply mr-2.5 relative flex mt-2 ml-2 w-[95vw] gap-[10px] h-[5vh] p-1 bg-slate-100
 }
 
 .input {

@@ -1,5 +1,5 @@
 .container {
-    @apply flex flex-col h-[100vh] bg-slate-50 justify-between w-[5vw] items-center gap-1
+    @apply flex flex-col h-[98vh] bg-slate-200 justify-between w-[5vw] items-center gap-1 ml-2 mt-2
 }
 
 .logo {

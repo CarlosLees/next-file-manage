@@ -1,5 +1,13 @@
 .container {
-    @apply flex items-center h-full gap-[20px] justify-around
+    @apply flex items-center h-full gap-[10px] justify-around mr-2 w-full
+}
+
+.message {
+    @apply relative h-[50%] w-[45px]
+}
+
+.image {
+    @apply object-contain
 }
 
 .username {
@@ -7,7 +15,7 @@
 }
 
 .dropdown {
-    @apply relative inline-block
+    @apply relative inline-block h-[70%] w-[30px] mr-2
 }
 
 .form {
