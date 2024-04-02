@@ -1,7 +1,5 @@
 import Image from 'next/image';
 
-import { logout } from '@/lib/action';
-
 import styles from './userProfile.module.css';
 
 const UserProfile = () => {
@@ -12,11 +10,6 @@ const UserProfile = () => {
 
             <div className={styles.dropdown}>
                 <Image src="/header-avatar.png" alt="头像" width={25} height={25} />
-                <div className={styles.dropdownContent}>
-                    <form action={logout} className={styles.form}>
-                        <button>Logout</button>
-                    </form>
-                </div>
             </div>
         </div>
     );

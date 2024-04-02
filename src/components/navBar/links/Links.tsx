@@ -12,22 +12,22 @@ const Links = ({ session }: { session: ProjectSession | null }) => {
         },
         {
             title: 'add',
-            path: '/add',
+            path: '/',
             image: '/add.png',
         },
         {
             title: 'save',
-            path: '/save',
+            path: '/',
             image: '/save.png',
         },
         {
             title: 'userAdd',
-            path: '/userAdd',
+            path: '/',
             image: '/userAdd.png',
         },
         {
             title: 'deleted',
-            path: '/deleted',
+            path: '/',
             image: '/deleted.png',
         },
     ];

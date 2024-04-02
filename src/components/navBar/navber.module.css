@@ -1,9 +1,9 @@
 .container {
-    @apply flex flex-col h-[100vh] bg-slate-50 justify-between w-[4%] items-center gap-1
+    @apply flex flex-col h-[100vh] bg-slate-50 justify-between w-[5vw] items-center gap-1
 }
 
 .logo {
-    @apply relative w-4/5 h-[10%]
+    @apply relative w-full h-[10%]
 }
 
 .logoImage {
@@ -15,7 +15,11 @@
 }
 
 .exit {
-    @apply h-[10%] w-2/5 relative
+    @apply h-[10%] w-2/5
+}
+
+.exitButton {
+    @apply relative w-full h-[50%] border-none bg-slate-50
 }
 
 .exitImage {

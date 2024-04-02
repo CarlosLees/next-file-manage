@@ -1,5 +1,5 @@
 .container {
-    @apply flex items-center h-full gap-[20px] mr-2
+    @apply flex items-center h-full gap-[20px] justify-around
 }
 
 .username {
@@ -10,10 +10,6 @@
     @apply relative inline-block
 }
 
-.dropdownContent {
-    @apply hidden absolute z-10
-}
-
-.dropdown:hover .dropdownContent {
-    @apply block;
+.form {
+    @apply relative right-4
 }
